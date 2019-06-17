@@ -1,5 +1,5 @@
 # alphavantage-api
-KISS API wrapper for alphavanatage.co. Not sure why people make things so complicated. Also includes a `.polish` method stolen from [here](https://github.com/zackurben/alphavantage). <!--their package works, however imo poorly structured and doesn't appear to be well maintained-->
+KISS API wrapper for alphavanatage.co. Not sure why people make things so complicated. Also includes a `.polish` method stolen from [here](https://github.com/zackurben/alphavantage). <!--their package works, however imo poorly structured (spaghetti) and doesn't appear to be well maintained-->
 
 
 ## Usage
