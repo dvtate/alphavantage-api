@@ -18,7 +18,7 @@ class AlphaVantage {
         return polish(data);
     }
 
-    async query(options) {
+    async get(options) {
         let url = "https://www.alphavantage.co/query?";
         let needAmp = false;
         for (opt in options) {
