@@ -9,7 +9,7 @@ KISS API wrapper for alphavanatage.co. Not sure why people make things so compli
 const AlphaVantage = require("alphavantage-api"); // alphavantage.js
 const av = new AlphaVantage("your api key here");
 
-av.query({
+av.get({
   function: "FX_INTRADAY",
   from_symbol: "EUR",
   to_symbol: "USD",
