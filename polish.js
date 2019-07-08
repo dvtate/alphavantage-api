@@ -232,7 +232,7 @@ module.exports = function polish(data) {
 
     // If the data is a complex object, walk all subtrees to normalize all branches.
     let clean = {};
-    for (key in data) {
+    for (let key in data) {
         key = key.toString();
 
         // If the key is a date time string, convert it to an iso timestamp.
@@ -266,7 +266,7 @@ module.exports = function polish(data) {
         }
 
         clean[keys[key] || key] = polish(data[key]);
-    });
+    }
 
     return clean;
 };
