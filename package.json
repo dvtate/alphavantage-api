@@ -1,0 +1,27 @@
+{
+  "name": "simple-alphavantage",
+  "version": "1.0.0",
+  "description": "A simple alphavantage api wrapper that makes it easy to deal with api changes",
+  "main": "aplhavantage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvtate/alphavantage-api.git"
+  },
+  "keywords": [
+    "alphavantage",
+    "fintech",
+    "api",
+    "wrapper",
+    "rest",
+    "json"
+  ],
+  "author": "dvtate0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvtate/alphavantage-api/issues"
+  },
+  "homepage": "https://github.com/dvtate/alphavantage-api#readme"
+}
