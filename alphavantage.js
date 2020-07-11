@@ -2,7 +2,7 @@
 
 /*
 I've made this file as the library on NPM (https://github.com/zackurben/alphavantage)
-is poorly designed and poorly maintained
+is poorly maintained
 */
 
 const request = require("request-promise-native");
@@ -35,4 +35,4 @@ class AlphaVantage {
 };
 
 module.exports = AlphaVantage;
-//module.exports.polish = polish;
+module.exports.polish = polish;
